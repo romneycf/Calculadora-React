@@ -75,6 +75,7 @@
   font-family: 'Segment7Standard';
   font-weight: normal; 
   font-style: italic;
+  border: 2px solid black
 }
 
 .keypad {
@@ -95,11 +96,23 @@
   font-size: 30px;
   outline: none;
   cursor: pointer;
+  box-shadow: 2px 2px #222, 4px 6px 0 #000;
+}
+
+.btn:active{
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 1.6rem;
 }
 
 .num {
   background: #949494;
   margin: 5px;
+  box-shadow: 2px 2px #222, 4px 6px 0 #000;
+}
+
+.num:active{
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 1.6rem;
 }
 
 button {
@@ -117,11 +130,17 @@ button:hover {
 }
 
 .equals {
+  box-shadow: 2px 2px #222, 4px 6px 0 #000;
   margin: 5px;
   grid-column: 3 / 5;
   background-color: #99445d;
 }
 
+.equals:active{
+  background: #949494;
+  margin: 5px;
+  box-shadow: 2px 2px #222, 4px 6px 0 #000;
+}
 .equals:hover {
   background-color: hsl(342, 40%, 33%);
 }
