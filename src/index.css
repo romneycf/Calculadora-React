@@ -1,0 +1,127 @@
+@import url("./reset.css");
+@import url("https://fontlibrary.org/face/segment7");
+@import url(//db.onlinewebfonts.com/c/7bdd1e5cdcb9ef7298f2e3fa8427016d?family=Eurostile+LT+Std+Bold);
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.body {
+  width: 340px;
+  height: 540px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 4px;
+  background-color: #dedee0;
+}
+
+.header {
+  width: 340px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logo {
+  color: #1c3da6;
+  text-align: left;
+  font-family: "Eurostile LT Std Bold";
+  font-size: 2em;
+}
+
+.logo-img {
+  height: 30px;
+  width: 30px;
+}
+
+.versao {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.solars {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  background-color: #241212;
+  border-radius: 7px;
+}
+
+.solar {
+  width: 35px;
+  border-radius: 7px;
+  border: solid 1px #2F1D1D;
+}
+
+.display {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+  box-sizing: border-box;
+  background: #b2bfc7;
+  font-family: 'Segment7Standard';
+  font-weight: normal; 
+  font-style: italic;
+}
+
+.keypad {
+  width: 100%;
+  height: calc(100% - 140px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
+.btn{
+  flex: 1;
+  margin: 5px;
+  border: none;
+  background: #000000;
+  color: white;
+  font-size: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.num {
+  background: #949494;
+  margin: 5px;
+}
+
+button {
+  border: none;
+  background-color: rgb(80, 60, 209);
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(80, 80, 82);
+}
+
+.equals {
+  margin: 5px;
+  grid-column: 3 / 5;
+  background-color: #99445d;
+}
+
+.equals:hover {
+  background-color: hsl(342, 40%, 33%);
+}
