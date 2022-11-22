@@ -1,3 +1,9 @@
+//Aplicação desenvolvida como forma de estudo. Iniciando joranda front-end React//
+
+//Demonstração
+https://calculadora-react-green.vercel.app/
+
+---------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
